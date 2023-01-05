@@ -289,13 +289,5 @@
         },
       },
     });
-
-    //Google Maps
-    $("#map").googleMap({
-      zoom: 16, // Google Map ZOOM. You can change this value
-    });
-    $("#map").addMarker({
-      address: "Lisbon, Portugal", // Your Address. Change it
-    });
   });
 })(jQuery);
